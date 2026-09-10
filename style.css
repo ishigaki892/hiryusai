@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #fff;
+  color: #222;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Noto Sans JP",
+    "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.9;
+}
+header {
+  padding: 70px 20px 55px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+header p {
+  margin: 0 0 8px;
+  color: #777;
+  font-size: 14px;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(28px, 7vw, 42px);
+  line-height: 1.35;
+}
+.subtitle {
+  margin-top: 12px;
+  color: #777;
+  font-size: 14px;
+}
+img {
+  width: 100%;
+}
+main {
+  width: min(720px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 45px 0 70px;
+}
+.intro {
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.intro p {
+  margin: 0 0 12px;
+}
+article {
+  margin-bottom: 60px;
+}
+.date {
+  color: #777;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+h2 {
+  margin: 4px 0 18px;
+  font-size: 24px;
+  line-height: 1.45;
+}
+h3 {
+  margin: 28px 0 8px;
+  font-size: 18px;
+}
+p {
+  margin: 0 0 14px;
+}
+.note {
+  margin: 18px 0;
+  padding: 14px 16px;
+  background: #f6f6f6;
+  border-left: 3px solid #ccc;
+}
+.phone {
+  width: 100%;
+  margin: 20px 0;
+  display: grid;
+  place-items: center;
+  background: #f3f3f3;
+  color: #999;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  text-align: center;
+}
+.quote {
+  margin: 22px 0;
+  padding: 16px 18px;
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-style: italic;
+}
+.end {
+  margin-top: 75px;
+  padding-top: 35px;
+  border-top: 1px solid #ddd;
+}
+footer {
+  padding: 30px 20px;
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  border-top: 1px solid #ddd;
+}
+footer a {
+  color: inherit;
+}
+@media (max-width: 500px) {
+  header {
+    padding: 52px 16px 42px;
+  }
+  main {
+    width: min(100% - 28px, 720px);
+    padding-top: 35px;
+  }
+  img {
+    width: 720px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  article {
+    margin-bottom: 50px;
+  }
+}
